@@ -55,5 +55,22 @@ export default {
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
+    <!-- <v-date-picker></v-date-picker> -->
+    <!-- <DatePicker /> -->
+    <!-- <Button>Ant D</Button> -->
+    <v-bottom-sheet></v-bottom-sheet>
+
   </div>
 </template>
+
+<script>
+// import { DatePicker } from 'ant-design-vue';
+import { Button } from "ant-design-vue";
+import "../../node_modules/ant-design-vue/dist/antd.css";
+
+export default {
+  components :{
+    Button
+  }
+}
+</script>
